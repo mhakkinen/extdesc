@@ -6,9 +6,9 @@ Proposal by Mark Hakkinen - Educational Testing Service - 21 September 2016
 
 ## Overview
 
-This approach is being used at ETS, and was developed by the Accessibility, Standards, and Assistive Technology Research Group. Usability testing was conducted with screen reader users. Only existing HTML markup is used.  There are no new features used, but some useful ones are suggested.
+This approach is being used at ETS, and was developed by the Accessibility, Standards, and Assistive Technology Research Group. Usability testing was conducted with screen reader users. Only existing HTML markup is used.  There are no new features used, but some useful ones are suggested. The result is a solution that works consistently and reliably across platforms, browsers, and screen readers.
 
-The basic premise behind the approach seeks to optimize the aural presentation for screen reader users.  This particular implementation at ETS is currently focused on non-visual use case, where the extended description is visually hidden.  However, we have created prototypes where the extended description becomes visually available, using either the details element or other programmatic control
+The basic premise behind the approach seeks to optimize the aural presentation for screen reader users.  This particular implementation at ETS is currently focused on the non-visual use case, where the extended description is visually hidden.  However, we have created prototypes where the extended description becomes visually available, using either the details element, buttons, or programmatic control.
 
 Finally while the approach described below is based on using only standard elements and attributes, we have have also created a web component-based model implementing a significant part of the DIAGRAMMAR format. [1]
 
