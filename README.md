@@ -8,9 +8,13 @@ Proposal by Mark Hakkinen - Educational Testing Service - 21 September 2016
 
 This approach is being used at ETS, and was developed by the Accessibility, Standards, and Assistive Technology Research Group. Usability testing was conducted with screen reader users. Only existing HTML markup is used.  There are no new features used, but some useful ones are suggested.
 
+The basic premise behind the approach seeks to optimize the aural presentation for screen reader users.  This particular implementation at ETS is currently focused on non-visual use case, where the extended description is visually hidden.  However, we have created prototypes where the extended description becomes visually available, using either the details element or other programmatic control
+
+Finally while the approach described below is based on using only standard elements and attributes, we have have also created a web component-based model implementing a significant part of the DIAGRAMMAR format. [1]
+
 ## Block Images
 
-The <figure> element is used to contain block images.  Within the <figure> element, is the visual image content, for example a graph or complex expression rendered using graphics.  The image has the aria-hidden attribute and it is set to true, meaning the image itself is hidden from screen readers.
+The `<figure>` element is used to contain block images.  Within the `<figure>` element, is the visual image content, for example a graph or complex expression rendered using graphics.  The image has the aria-hidden attribute and it is set to true, meaning the image itself is hidden from screen readers.
 
 The <caption> element is optional and should be used if the original image contains a visible caption.
 
