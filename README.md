@@ -6,7 +6,7 @@ Proposal by Mark Hakkinen - Educational Testing Service - 21 September 2016
 
 ## Overview
 
-This approach is being used at ETS, and was developed by the Accessibility, Standards, and Assistive Technology Research Group. Usability testing was conducted with screen reader users. Only existing HTML markup used.  There are no new features used.
+This approach is being used at ETS, and was developed by the Accessibility, Standards, and Assistive Technology Research Group. Usability testing was conducted with screen reader users. Only existing HTML markup is used.  There are no new features used, but some useful ones are suggested.
 
 ## Block Images
 
@@ -16,6 +16,8 @@ The <caption> element is optional and should be used if the original image conta
 
 A <div> element, functioning as the container for the extended description, follows. The <div> is visually hidden using standard CSS.
 
+
+``` HTML
 <figure>
 		<div class="offscreen">
 			<h1>Described image, Water Cycle</h1>
@@ -23,6 +25,7 @@ A <div> element, functioning as the container for the extended description, foll
 		</div>
 		<img src="watercycle.jpg" aria-hidden="true" alt="">
 	</figure>
+``` 
 
 ## Inline Images
 
@@ -30,6 +33,7 @@ An optional <span> element is used to contain inline images and their extended d
 
 A <span> element, functioning as the container for the extended description, follows. The <span> is visually hidden using standard CSS.
 
+``` HTML
 <p>
 		The approximate value of 
 			<img alt="" src="sqrt3.png" aria-hidden="true">
@@ -40,4 +44,4 @@ A <span> element, functioning as the container for the extended description, fol
 			<span class="offscreen">the square root of twelve</span>
 			<!-- <span class="offscreen">— nemeth follows: &gt;#12 </span> --> ?
 	</p>
-
+```
