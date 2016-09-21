@@ -49,7 +49,7 @@ A <span> element, functioning as the container for the extended description, fol
 			<img alt="" src="sqrt3.png" aria-hidden="true">
 			<span class="offscreen">the square root of three</span>
 			<!-- <span class="offscreen">— nemeth follows: &gt;#3 </span> --> is 1.732. 
-		Which of the following expressions gives the best approximation of 
+		        Which of the following expressions gives the best approximation of 
 			<img alt="" src="sqrt12.png" aria-hidden="true">
 			<span class="offscreen">the square root of twelve</span>
 			<!-- <span class="offscreen">— nemeth follows: &gt;#12 </span> --> ?
@@ -60,6 +60,8 @@ A <span> element, functioning as the container for the extended description, fol
 The following are examples of each type.
 
 ## Future Improvements
+
+### Description Semantics, Labelling, and Navigation
 
 ### Semantically Meaningful and Robust Hiding
 
