@@ -61,11 +61,11 @@ The following are examples of each type.
 
 ## Future Improvements
 
-### Inforamtion hiding
+### Semantically Meaningful and Robust Hiding
 
-### Media Queries for selecting Children
+### Media Queries for Selecting Alternative Children
 
-### Mapping DIAGRAMMER to this Model
+### Mapping DIAGRAMMER 
 
 
 ## References
