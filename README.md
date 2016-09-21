@@ -12,6 +12,10 @@ The basic premise behind the approach seeks to optimize the aural presentation f
 
 Finally while the approach described below is based on using only standard elements and attributes, we have have also created a web component-based model implementing a significant part of the DIAGRAMMAR format. [1]
 
+## Fundamental Design Concept
+
+For the user, the most salient information is the extended description. Efficent delivery of that description is key. Therefore, the aural presentation of the description supersedes and replaces the physical image in the accessibility tree.
+
 ## Block Images
 
 The `<figure>` element is used to contain block images.  Within the `<figure>` element, is the visual image content, for example a graph or complex expression rendered using graphics.  The image has the aria-hidden attribute and it is set to true, meaning the image itself is hidden from screen readers.
