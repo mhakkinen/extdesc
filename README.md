@@ -18,22 +18,24 @@ The `<figure>` element is used to contain block images.  Within the `<figure>` e
 
 The <caption> element is optional and should be used if the original image contains a visible caption.
 
-A <div> element, functioning as the container for the extended description, follows. The <div> is visually hidden using standard CSS.
+A `<div>` element, functioning as the container for the extended description, follows. The `<div>` is visually hidden using standard CSS.
 
 
 ``` HTML
 <figure>
 		<div class="offscreen">
 			<h1>Described image, Water Cycle</h1>
-			<p>The diagram shows the processes of evaporation, condensation, evapotranspiration, water storage in ice and snow, and precipitation. The water table and ground water flow are also shown.</p>
+			<p>The diagram shows the processes of evaporation, condensation, 
+			evapotranspiration, water storage in ice and snow, and precipitation. 
+			The water table and ground water flow are also shown.</p>
 		</div>
 		<img src="watercycle.jpg" aria-hidden="true" alt="">
-	</figure>
+</figure>
 ``` 
 
 ## Inline Images
 
-An optional <span> element is used to contain inline images and their extended description.  Within the <span> element, is the visual image content, for example an image of a math expression rendered using graphics.  The image has the aria-hidden attribute and it is set to true, meaning the image itself is hidden from screen readers.
+An optional `<span>` element is used to contain inline images and their extended description.  Within the `<span>` element, is the visual image content, for example an image of a math expression rendered using graphics.  The image has the `aria-hidden` attribute and it is set to true, meaning the image itself is hidden from screen readers.
 
 A <span> element, functioning as the container for the extended description, follows. The <span> is visually hidden using standard CSS.
 
